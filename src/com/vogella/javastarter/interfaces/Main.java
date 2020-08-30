@@ -10,5 +10,9 @@ public class Main {
         boy.AbstractMethod();
         boy.SayMyName("Jack");
         System.out.println(boy.reserveString("reverse string"));
+
+//        An abstract class is a class that is declared abstract —it may or may not include abstract methods.
+//        Abstract classes cannot be instantiated, but they can be subclassed. When an abstract class is subclassed,
+//        the subclass usually provides implementations for all of the abstract methods in its parent class.
     }
 }
